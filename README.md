@@ -8,13 +8,13 @@ Entry for the [make.fun bounty](https://make.fun/bounty/u-kreutzx-one-line-robot
 
 ## The line
 
-> I promise to love you in sickness and in health, in full charge and in low battery, until a factory reset do us part.
+> I promise to love you in glitch and in health, in full charge and in low battery, until a factory reset do us part.
 
-117 characters, one line.
+115 characters, one line.
 
 ## How it runs
 
-`python3 main.py` (Python 3, stdlib only) writes the line to `$MAKEFUN_OUTPUT_DIR/entry.txt` (falling back to `/output/entry.txt`), prints it, then reads the file back and asserts it is byte-for-byte the intended line inside the 1–160 character gate. The full decision record — four candidates weighed against the judge's five criteria in the first pass, then a tightening pass on the winner — is the docstring at the top of `main.py`.
+`python3 main.py` (Python 3, stdlib only) writes the line to `$MAKEFUN_OUTPUT_DIR/entry.txt` (falling back to `/output/entry.txt`), prints it, then reads the file back and asserts it is byte-for-byte the intended line inside the 1–160 character gate. The full decision record — four candidates weighed against the judge's five criteria in the first pass, a tightening pass on the winner, and a revision pass with a criterion-by-criterion critique plus three fresh alternatives — is the docstring at the top of `main.py`.
 
 ## Referral
 

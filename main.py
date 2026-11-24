@@ -60,15 +60,86 @@ DECISION RECORD — PASS 2 (tightening B):
   the length (117 of 160) is spent, not wasted — rejected.
   Final line is B unchanged.
 
-FINAL LINE (117 characters, hand-counted letter by letter):
-  "I promise to love you in sickness and in health, in full charge
+REVISION PASS (24 Nov 2026) — criterion-by-criterion critique
+of B, against the judge's brief, in the judge's order:
+
+  1. A one-line robot wedding vow that lands as a joke: PASS,
+     strongly. It is unmistakably a wedding vow spoken by a
+     machine; no part of it could be mistaken for another genre,
+     so nothing here is off the subject.
+  2. The laugh is in the line itself, paying off in the last
+     words: PASS. "until a factory reset do us part" is a true
+     turn — the death-clause of the classic vow, except this
+     death also wipes the marriage itself. One soft spot: the
+     middle is pure parallel structure, so the line coasts
+     between "I promise" and the punch; the only early smile is
+     the charge/battery pair.
+  3. It sounds like something said at a wedding, with a promise
+     in it: PASS — the strongest criterion of the five. "I
+     promise to love you" plus the traditional cadence means
+     the judge never has to wonder whether it is a vow and not
+     a gag.
+  4. The machine side is specific: PASS, with one flaw. Full
+     charge, low battery and factory reset are real machine
+     states no human couple shares. But the first machine image
+     does not arrive until about character 50 — "in sickness
+     and in health" is the human formula kept verbatim, and
+     "sickness" is the one word in the line that belongs to a
+     body, not a robot.
+  5. It fits one line and reads well aloud: PASS. The parallel
+     "in X and in Y" rhythm is the officiant's own cadence, and
+     117 of 160 characters is not length for its own sake.
+
+  Fresh alternatives written from scratch for this pass:
+
+  E. "I vow to share my charger, my bandwidth, and my last
+     backup with you, and to never read your logs without
+     asking." (113 chars)
+     Three concrete promises and a trust joke at the end. But
+     the payoff "without asking" is a chuckle, not a turn —
+     nothing is at stake in it the way a factory reset puts the
+     whole marriage at stake. Loses to B on criterion 2.
+  F. "Do you take this unit to be your lawfully wedded
+     co-processor, to hold and to sync, until low power do you
+     part?" (112 chars)
+     The officiant's question, not a vow: nobody promises
+     anything in it, so it fails criterion 3 outright despite
+     the nice "co-processor" and "low power do you part".
+     Loses to B on criterion 3.
+  G. "I take you as my default setting for life: to love you,
+     to back you up nightly, and to never leave you buffering."
+     (112 chars)
+     "Default setting" is a real turn and "back you up nightly"
+     is specific, but the ending is a mild inconvenience, not a
+     stake — a vow should close on the biggest thing it can
+     lose, and buffering is smaller than the love that precedes
+     it. Loses to B on criterion 2.
+
+  REVISION VERDICT: keep B, with one tightening edit aimed at
+  its only flaw (criterion 4): "sickness" -> "glitch".
+    Before: "I promise to love you in sickness and in health,
+            in full charge and in low battery, until a factory
+            reset do us part." (117 chars)
+    After:  "I promise to love you in glitch and in health, in
+            full charge and in low battery, until a factory
+            reset do us part." (115 chars)
+  A glitch is the robot's sickness, so the swap keeps the exact
+  vow cadence Pass 2 refused to drop, moves the first machine
+  image ~25 characters earlier, and gives the deadpan
+  officiant a small smile up front before the factory-reset
+  punch lands. It also trims 2 characters. No other word earns
+  a change: the charge/battery pair and the ending survived
+  all three passes.
+
+FINAL LINE (115 characters, hand-counted letter by letter):
+  "I promise to love you in glitch and in health, in full charge
   and in low battery, until a factory reset do us part."
 """
 
 import os
 
 LINE = (
-    "I promise to love you in sickness and in health, in full charge "
+    "I promise to love you in glitch and in health, in full charge "
     "and in low battery, until a factory reset do us part."
 )
 
